@@ -19,14 +19,13 @@ class List extends Component {
             </ListItem>
             );
           })
-        }
-        
+        } 
       </div>
     )
   }
 }
 
-const mapState = () => {
+const mapState = (state) => {
   list: state.getIn(['home', 'articleList'])
 }
 

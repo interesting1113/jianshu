@@ -1,11 +1,17 @@
 import React, { Component } from "react";
+import { WriterWarpper } from '../style';
+import { connect } from 'react-redux';
 
 class Writer extends Component {
   render () {
     return (
-      <div>writer</div>
+      <WriterWarpper>writer</WriterWarpper>
     )
   }
 }
 
-export default Writer;
+const mapState = (state) => {
+
+}
+
+export default connect(mapState)(Writer);
