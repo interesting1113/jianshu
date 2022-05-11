@@ -1,9 +1,14 @@
 import React, { Component } from "react";
+import { Content, DetailWrapper} from './style';
 
 class Detail extends Component {
   render () {
     return (
-      <div>detail</div>
+      <DetailWrapper>
+        <Content>
+          
+        </Content>
+      </DetailWrapper>
     )
   }
 }
