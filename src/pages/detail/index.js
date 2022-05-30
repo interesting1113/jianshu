@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React, { PureComponent } from "react";
 import { connect } from "react-redux";
 import { Content, DetailWrapper, Header} from './style';
 import { actionCreators } from "./store";
 
-class Detail extends Component {
+class Detail extends PureComponent {
   render () {
     return (
       <DetailWrapper>
